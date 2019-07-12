@@ -1,0 +1,223 @@
+{
+    "root_directory": "P:/_Programas",
+
+    "programs": [
+        {
+            "name": "Firefox",
+            "file": "Firefox/Firefox Setup *.exe",
+            "url": "https://download.mozilla.org/?product=firefox-latest&os=win&lang=pt-BR",
+            "search_type": "",
+            "search_params": {
+                
+            }
+        },
+        {
+            "name": "Google Chrome",
+            "file": "Chrome/googlechromestandaloneenterprise.msi",
+            "url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise.msi",
+            "search_type": "",
+            "search_params": {
+                
+            }
+        },
+        {
+            "name": "Google Chrome 64",
+            "file": "Chrome/googlechromestandaloneenterprise64.msi",
+            "url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi",
+            "search_type": "",
+            "search_params": {
+                
+            }
+        },
+        {
+            "name": "Java",
+            "file": "Java/jre-*-windows-i586.exe",
+            "url": "https://www.java.com/pt_BR/download/manual.jsp",
+            "search_type": "find",
+            "search_params": {
+                "name": "a",
+                "string": "\nWindows Off-line"
+            }
+        },
+        {
+            "name": "Adobe Flash Player",
+            "file": "Adobe Flash Player/install_flash_player.exe",
+            "url": "http://fpdownload.macromedia.com/pub/flashplayer/latest/help/install_flash_player.exe",
+            "search_type": "",
+            "search_params": {
+                
+            }
+        },
+        {
+            "name": "Adobe Flash Player ActiveX",
+            "file": "Adobe Flash Player/install_flash_player_ax.exe",
+            "url": "http://fpdownload.macromedia.com/pub/flashplayer/latest/help/install_flash_player_ax.exe",
+            "search_type": "",
+            "search_params": {
+                
+            }
+        },
+        {
+            "name": "Adobe Flash Player PPAPI",
+            "file": "Adobe Flash Player/install_flash_player_ppapi.exe",
+            "url": "http://fpdownload.macromedia.com/pub/flashplayer/latest/help/install_flash_player_ax.exe",
+            "search_type": "",
+            "search_params": {
+                
+            }
+        },
+        {
+            "name": "Google Earth Pro",
+            "file": "Google Earth/GoogleEarthProWin.exe",
+            "url": "http://dl.google.com/earth/client/advanced/current/GoogleEarthProWin.exe",
+            "search_type": "",
+            "search_params": {
+                
+            }
+        },
+        {
+            "name": "PDFCreator",
+            "file": "PDFCreator/PDFCreator-*.exe",
+            "url": "http://download.pdfforge.org/download/pdfcreator/PDFCreator-stable?download",
+            "search_type": "",
+            "search_params": {
+                
+            }
+        },
+        {
+            "name": "IRPF 2017",
+            "file": "IRPF2017Win32*.exe",
+            "url": "http://idg.receita.fazenda.gov.br/interface/cidadao/irpf/2017/download/windows",
+            "search_type": "selector_re",
+            "search_params": {
+                "selector": "a.external-link[target=_self]",
+                "attr": "string",
+                "pattern": "^Programa IRPF 2017$"
+            }
+        },
+        {
+            "name": "IRPF 2018",
+            "file": "IRPF/IRPF2018Win32*.exe",
+            "url": "http://idg.receita.fazenda.gov.br/interface/cidadao/irpf/2018/download/windows",
+            "search_type": "selector_re",
+            "search_params": {
+                "selector": "a.external-link[target=_self]",
+                "attr": "string",
+                "pattern": "^Programa IRPF 2018$"
+            }
+        },
+        {
+            "name": "IRPF 2019",
+            "file": "IRPF/IRPF2019Win32*.exe",
+            "url": "http://idg.receita.fazenda.gov.br/interface/cidadao/irpf/2019/download/windows",
+            "search_type": "selector_re",
+            "search_params": {
+                "selector": "a.external-link[target=_self]",
+                "attr": "string",
+                "pattern": "^Programa IRPF 2019$"
+            }
+        },
+        {
+            "name": "DIRF 2017",
+            "file": "DIRF/Dirf2017Win32*.exe",
+            "url": "http://idg.receita.fazenda.gov.br/orientacao/tributaria/declaracoes-e-demonstrativos/dirf-declaracao-do-imposto-de-renda-retido-na-fonte/tabelas-pgds/programa-gerador-da-declaracao-dirf-2017",
+            "search_type": "selector_re",
+            "search_params": {
+                "selector": "a.external-link[target=_self]",
+                "attr": "string",
+                "pattern": "Dirf2017Win32.+\\.exe"
+            }
+        },
+        {
+            "name": "DIRF 2017 x64",
+            "file": "DIRF/Dirf2017Win64*.exe",
+            "url": "http://idg.receita.fazenda.gov.br/orientacao/tributaria/declaracoes-e-demonstrativos/dirf-declaracao-do-imposto-de-renda-retido-na-fonte/tabelas-pgds/programa-gerador-da-declaracao-dirf-2017",
+            "search_type": "selector_re",
+            "search_params": {
+                "selector": "a.external-link[target=_self]",
+                "attr": "string",
+                "pattern": "Dirf2017Win64.+\\.exe"
+            }
+        },
+        {
+            "name": "DIRF 2018",
+            "file": "DIRF/Dirf2018Win32*.exe",
+            "url": "http://idg.receita.fazenda.gov.br/orientacao/tributaria/declaracoes-e-demonstrativos/dirf-declaracao-do-imposto-de-renda-retido-na-fonte/tabelas-pgds/programa-gerador-da-declaracao-dirf-2018",
+            "search_type": "selector_re",
+            "search_params": {
+                "selector": "a.external-link[target=_self]",
+                "attr": "string",
+                "pattern": "Dirf2018Win32.+\\.exe"
+            }
+        },
+        {
+            "name": "DIRF 2018 x64",
+            "file": "DIRF/Dirf2018Win64*.exe",
+            "url": "http://idg.receita.fazenda.gov.br/orientacao/tributaria/declaracoes-e-demonstrativos/dirf-declaracao-do-imposto-de-renda-retido-na-fonte/tabelas-pgds/programa-gerador-da-declaracao-dirf-2018",
+            "search_type": "selector_re",
+            "search_params": {
+                "selector": "a.external-link[target=_self]",
+                "attr": "string",
+                "pattern": "Dirf2018Win64.+\\.exe"
+            }
+        },
+        {
+            "name": "DIRF 2019",
+            "file": "DIRF/Dirf2019Win32*.exe",
+            "url": "http://idg.receita.fazenda.gov.br/orientacao/tributaria/declaracoes-e-demonstrativos/dirf-declaracao-do-imposto-de-renda-retido-na-fonte/tabelas-pgds/programa-gerador-da-declaracao-dirf-2019",
+            "search_type": "selector_re",
+            "search_params": {
+                "selector": "a.external-link[target=_self]",
+                "attr": "string",
+                "pattern": "Dirf2019Win32.+\\.exe"
+            }
+        },
+        {
+            "name": "DIRF 2019 x64",
+            "file": "DIRF/Dirf2019Win64*.exe",
+            "url": "http://idg.receita.fazenda.gov.br/orientacao/tributaria/declaracoes-e-demonstrativos/dirf-declaracao-do-imposto-de-renda-retido-na-fonte/tabelas-pgds/programa-gerador-da-declaracao-dirf-2019",
+            "search_type": "selector_re",
+            "search_params": {
+                "selector": "a.external-link[target=_self]",
+                "attr": "string",
+                "pattern": "Dirf2019Win64.+\\.exe"
+            }
+        },
+        {
+            "name": "SIOPE Municipal 2018",
+            "file": "SIOPE/Siope_Mun_2018_Anual-*.exe",
+            "url": "http://www.fnde.gov.br/fnde_sistemas/siope/downloads",
+            "search_type": "selector",
+            "search_params": {
+                "selector": "#k2Container > div.itemBody > div.itemFullText > table:nth-child(30) > tbody > tr:nth-child(1) > td:nth-child(1) > a"
+            }
+        },
+        {
+            "name": "SIOPE Municipal 2019",
+            "file": "SIOPE/Siope_Mun_2019_Anual-*.exe",
+            "url": "http://www.fnde.gov.br/fnde_sistemas/siope/downloads",
+            "search_type": "selector",
+            "search_params": {
+                "selector": "#k2Container > div.itemBody > div.itemFullText > table:nth-child(23) > tbody > tr > td:nth-child(1) > a"
+            }
+        },
+        {
+            "name": "SIOPS",
+            "file": "SIOPS/InstaladorSiops32.exe",
+            "url": "http://siops.datasus.gov.br/bim_sistema.php",
+            "search_type": "selector",
+            "search_params": {
+                "selector": "#container > div.quadro90c > div > div.box_txt_destaqueXX > table > tbody > tr:nth-child(2) > td:nth-child(2) > a"
+            }
+        },
+        {
+            "name": "SIOPS x64",
+            "file": "SIOPS/InstaladorSiops64.exe",
+            "url": "http://siops.datasus.gov.br/bim_sistema.php",
+            "search_type": "selector",
+            "search_params": {
+                "selector": "#container > div.quadro90c > div > div.box_txt_destaqueXX > table > tbody > tr:nth-child(3) > td:nth-child(2) > a"
+            }
+        }
+    ]
+}
